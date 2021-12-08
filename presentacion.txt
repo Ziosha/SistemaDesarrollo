@@ -18,3 +18,4 @@ values (1001,'ANGEL','Ayacucho-calle 212-Nro-32','2279933')
 
 select *
 from Proveedores
+tywqttygsgh

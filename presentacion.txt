@@ -1,2 +1,9 @@
 sistema de desarrollo 1
 algo
+
+insert into Proveedores(
+Nombre varchar(50),
+codigo int,
+direccion varchar (50)
+
+)

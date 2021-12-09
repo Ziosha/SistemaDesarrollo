@@ -83,3 +83,18 @@ C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_ve
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csprojAssemblyReference.cache
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productouser.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb

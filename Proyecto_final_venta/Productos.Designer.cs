@@ -33,15 +33,13 @@
             this.inventarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.inventarioTableAdapter = new Proyecto_final_venta.proyecto_finalDataSetTableAdapters.InventarioTableAdapter();
             this.tableAdapterManager = new Proyecto_final_venta.proyecto_finalDataSetTableAdapters.TableAdapterManager();
-            this.btn_agregar = new System.Windows.Forms.Button();
             this.dgresult = new System.Windows.Forms.DataGridView();
+            this.btn_agregar = new System.Windows.Forms.Button();
             this.btn_refrescar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_finalDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgresult)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // proyecto_finalDataSet
@@ -66,6 +64,14 @@
             this.tableAdapterManager.UpdateOrder = Proyecto_final_venta.proyecto_finalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.usersTableAdapter = null;
             // 
+            // dgresult
+            // 
+            this.dgresult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgresult.Location = new System.Drawing.Point(10, 12);
+            this.dgresult.Name = "dgresult";
+            this.dgresult.Size = new System.Drawing.Size(533, 233);
+            this.dgresult.TabIndex = 3;
+            // 
             // btn_agregar
             // 
             this.btn_agregar.FlatAppearance.BorderSize = 0;
@@ -73,21 +79,13 @@
             this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_agregar.Location = new System.Drawing.Point(12, 266);
+            this.btn_agregar.Location = new System.Drawing.Point(50, 267);
             this.btn_agregar.Name = "btn_agregar";
             this.btn_agregar.Size = new System.Drawing.Size(462, 32);
             this.btn_agregar.TabIndex = 2;
             this.btn_agregar.Text = "Agregar";
             this.btn_agregar.UseVisualStyleBackColor = true;
             this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
-            // 
-            // dgresult
-            // 
-            this.dgresult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgresult.Location = new System.Drawing.Point(10, 11);
-            this.dgresult.Name = "dgresult";
-            this.dgresult.Size = new System.Drawing.Size(464, 233);
-            this.dgresult.TabIndex = 3;
             // 
             // btn_refrescar
             // 
@@ -96,26 +94,13 @@
             this.btn_refrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_refrescar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_refrescar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_refrescar.Location = new System.Drawing.Point(10, 304);
+            this.btn_refrescar.Location = new System.Drawing.Point(50, 305);
             this.btn_refrescar.Name = "btn_refrescar";
             this.btn_refrescar.Size = new System.Drawing.Size(462, 32);
             this.btn_refrescar.TabIndex = 4;
             this.btn_refrescar.Text = "Refrescar";
             this.btn_refrescar.UseVisualStyleBackColor = true;
             this.btn_refrescar.Click += new System.EventHandler(this.btn_refrescar_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.btn_refrescar);
-            this.panel1.Controls.Add(this.dgresult);
-            this.panel1.Controls.Add(this.btn_agregar);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(486, 387);
-            this.panel1.TabIndex = 5;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button1
             // 
@@ -124,7 +109,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(12, 341);
+            this.button1.Location = new System.Drawing.Point(50, 343);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(462, 32);
             this.button1.TabIndex = 5;
@@ -137,8 +122,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
-            this.ClientSize = new System.Drawing.Size(486, 387);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(577, 387);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_refrescar);
+            this.Controls.Add(this.dgresult);
+            this.Controls.Add(this.btn_agregar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Productos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -147,7 +135,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_finalDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgresult)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -158,10 +145,9 @@
         private System.Windows.Forms.BindingSource inventarioBindingSource;
         private proyecto_finalDataSetTableAdapters.InventarioTableAdapter inventarioTableAdapter;
         private proyecto_finalDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.Button btn_agregar;
         private System.Windows.Forms.DataGridView dgresult;
+        private System.Windows.Forms.Button btn_agregar;
         private System.Windows.Forms.Button btn_refrescar;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
     }
 }

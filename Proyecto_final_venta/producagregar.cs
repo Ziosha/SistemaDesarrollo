@@ -7,15 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
+using System.Data.SqlClient;
+
 
 namespace Proyecto_final_venta
 {
     public partial class producagregar : Form
     {
+        static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
+        SqlConnection conexion = new SqlConnection(conexionstr);
+
         public producagregar()
         {
             InitializeComponent();
+            conexion.Open();
         }
         int posx = 0;
         int posy = 0;
@@ -29,62 +34,62 @@ namespace Proyecto_final_venta
 
         }
 
-        private void txt_item_Enter(object sender, EventArgs e)
+        private void txt_Prod_Enter(object sender, EventArgs e)
         {
-            if (txt_item.Text == "Item")
+            if (txt_codProd.Text == "Item")
             {
-                txt_item.Text = "";
-                txt_item.ForeColor = Color.Turquoise;
+                txt_codProd.Text = "";
+                txt_codProd.ForeColor = Color.Turquoise;
                 panel1.BackColor = Color.Turquoise;
             }
         }
 
         private void txt_item_Leave(object sender, EventArgs e)
         {
-            if (txt_item.Text == "")
+            if (txt_codProd.Text == "")
             {
-                txt_item.Text = "Item";
-                txt_item.ForeColor = Color.White;
+                txt_codProd.Text = "Item";
+                txt_codProd.ForeColor = Color.White;
                 panel1.BackColor = Color.White;
             }
         }
 
         private void txt_producto_Enter(object sender, EventArgs e)
         {
-            if (txt_producto.Text == "Producto")
+            if (txt_codProv.Text == "Producto")
             {
-                txt_producto.Text = "";
-                txt_producto.ForeColor = Color.Turquoise;
+                txt_codProv.Text = "";
+                txt_codProv.ForeColor = Color.Turquoise;
                 panel2.BackColor = Color.Turquoise;
             }
         }
 
         private void txt_producto_Leave(object sender, EventArgs e)
         {
-            if (txt_producto.Text == "")
+            if (txt_codProv.Text == "")
             {
-                txt_producto.Text = "Producto";
-                txt_producto.ForeColor = Color.White;
+                txt_codProv.Text = "Producto";
+                txt_codProv.ForeColor = Color.White;
                 panel2.BackColor = Color.White;
             }
         }
 
         private void txt_cantidad_Enter(object sender, EventArgs e)
         {
-            if (txt_cantidad.Text == "Cantidad")
+            if (txt_des.Text == "Cantidad")
             {
-                txt_cantidad.Text = "";
-                txt_cantidad.ForeColor = Color.Turquoise;
+                txt_des.Text = "";
+                txt_des.ForeColor = Color.Turquoise;
                 panel3.BackColor = Color.Turquoise;
             }
         }
 
         private void txt_cantidad_Leave(object sender, EventArgs e)
         {
-            if (txt_cantidad.Text == "")
+            if (txt_des.Text == "")
             {
-                txt_cantidad.Text = "cantidad";
-                txt_cantidad.ForeColor = Color.White;
+                txt_des.Text = "cantidad";
+                txt_des.ForeColor = Color.White;
                 panel3.BackColor = Color.White;
             }
         }
@@ -113,8 +118,24 @@ namespace Proyecto_final_venta
         {
             try
             {
+                if(txt_codProd.Text == "" || txt_codProv.Text == "" || txt_des.Text == "" || txt_precio.Text =="" || txt_cant.Text =="")
+                {
+                    MessageBox.Show("Llene todos los campos para agregar el producto");
+                }
+                else
+                {
+                    string query = "insert into Producto (codProducto, codProveedor, descripcionProducto, precioCompra, Cantidad)" +
+                        "values ('"+txt_codProd.Text +"',"+txt_codProv.Text +", '"+txt_des.Text+"',"+txt_precio.Text+","+txt_cant.Text+")";
+                    SqlCommand comando = new SqlCommand(query, conexion);
+                    SqlDataAdapter data = new SqlDataAdapter(comando);
+                    DataTable dt = new DataTable();
+                    data.Fill(dt);
+                    InitializeComponent();
+                    Close();
 
-              
+                }
+                
+
             }
             catch (Exception error)
             {
@@ -141,6 +162,26 @@ namespace Proyecto_final_venta
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void txt_producto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_cantidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_precio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -8,3 +8,14 @@ C:\Users\KEVIN\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.G
 C:\Users\KEVIN\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\KEVIN\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\KEVIN\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Lo_mio\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

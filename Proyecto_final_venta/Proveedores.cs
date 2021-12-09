@@ -33,8 +33,19 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Agregaruser agre = new Agregaruser();
-            agre.Show();
+            
+        }
+
+        private void btn_agre_Click(object sender, EventArgs e)
+        {
+            agregarproveedor aprov = new agregarproveedor();
+            aprov.Show();
+        }
+
+        private void btn_eli_Click(object sender, EventArgs e)
+        {
+            eliminarproducto elim = new eliminarproducto();
+            elim.Show();
         }
     }
 }

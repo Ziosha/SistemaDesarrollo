@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        static string conexionstring = "server= DESKTOP-34BDT7A ; database= DataBase_DS ; integrated security= true";
+        static string conexionstring = "server= DARK-AHSOIZ\\SQLEXPRESS ; database= DataBase_DS ; integrated security= true";
         SqlConnection conexion = new SqlConnection(conexionstring);
         public Form1()
         {

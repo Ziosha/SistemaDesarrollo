@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="actualizarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actualizarproveedor.Designer.cs">
+      <DependentUpon>actualizarproveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="agregarproveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="Agregaruser.Designer.cs">
       <DependentUpon>Agregaruser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultarproveedor.Designer.cs">
+      <DependentUpon>consultarproveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="eliminarproducto.cs">
       <SubType>Form</SubType>
@@ -93,6 +105,12 @@
     </Compile>
     <Compile Include="producagregar.Designer.cs">
       <DependentUpon>producagregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productoconsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productoconsultar.Designer.cs">
+      <DependentUpon>productoconsultar.cs</DependentUpon>
     </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
@@ -131,6 +149,9 @@
     <EmbeddedResource Include="Agregaruser.resx">
       <DependentUpon>Agregaruser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="consultarproveedor.resx">
+      <DependentUpon>consultarproveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="eliminarproducto.resx">
       <DependentUpon>eliminarproducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="producagregar.resx">
       <DependentUpon>producagregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productoconsultar.resx">
+      <DependentUpon>productoconsultar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>

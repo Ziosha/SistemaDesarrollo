@@ -47,7 +47,8 @@ namespace Proyecto_final_venta
         }
          private void btn_refrescar_Click(object sender, EventArgs e)
         {
-            
+            productoconsultar consult = new productoconsultar();
+            consult.Show();
         
         }
         private void btn_agregar_Click(object sender, EventArgs e)

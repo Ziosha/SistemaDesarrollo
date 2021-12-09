@@ -45,9 +45,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(40, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
+            this.label1.Size = new System.Drawing.Size(126, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "INgrese el id";
+            this.label1.Text = "Ingrese el id para eliminar";
             // 
             // btn_eliminar
             // 
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 450);
+            this.ClientSize = new System.Drawing.Size(190, 236);
             this.Controls.Add(this.btn_eliminar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.id_eliminar);

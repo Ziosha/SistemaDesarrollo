@@ -83,3 +83,5 @@ C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_ve
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources

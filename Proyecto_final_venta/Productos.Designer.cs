@@ -98,7 +98,7 @@
             this.btn_refrescar.Name = "btn_refrescar";
             this.btn_refrescar.Size = new System.Drawing.Size(462, 32);
             this.btn_refrescar.TabIndex = 4;
-            this.btn_refrescar.Text = "Refrescar";
+            this.btn_refrescar.Text = "Consultar";
             this.btn_refrescar.UseVisualStyleBackColor = true;
             this.btn_refrescar.Click += new System.EventHandler(this.btn_refrescar_Click);
             // 

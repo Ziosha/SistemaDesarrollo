@@ -33,7 +33,9 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            consultarproveedor cons = new consultarproveedor();
+            cons.Show();
+
         }
 
         private void btn_agre_Click(object sender, EventArgs e)

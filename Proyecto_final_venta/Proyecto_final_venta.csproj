@@ -59,6 +59,12 @@
       <DependentUpon>Agregaruser.cs</DependentUpon>
     </Compile>
     <Compile Include="clasefuncion.cs" />
+    <Compile Include="eliminarproducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminarproducto.Designer.cs">
+      <DependentUpon>eliminarproducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </Compile>
     <EmbeddedResource Include="Agregaruser.resx">
       <DependentUpon>Agregaruser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminarproducto.resx">
+      <DependentUpon>eliminarproducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

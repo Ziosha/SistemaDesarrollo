@@ -46,11 +46,11 @@
             // 
             this.txt_item.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txt_item.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_item.Font = new System.Drawing.Font("Minion Pro Cond", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_item.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txt_item.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_item.ForeColor = System.Drawing.Color.White;
             this.txt_item.Location = new System.Drawing.Point(66, 72);
             this.txt_item.Name = "txt_item";
-            this.txt_item.Size = new System.Drawing.Size(229, 27);
+            this.txt_item.Size = new System.Drawing.Size(229, 22);
             this.txt_item.TabIndex = 0;
             this.txt_item.Text = "Item";
             this.txt_item.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -61,11 +61,11 @@
             // 
             this.txt_producto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txt_producto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_producto.Font = new System.Drawing.Font("Minion Pro Cond", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_producto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_producto.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txt_producto.Location = new System.Drawing.Point(66, 109);
             this.txt_producto.Name = "txt_producto";
-            this.txt_producto.Size = new System.Drawing.Size(229, 27);
+            this.txt_producto.Size = new System.Drawing.Size(229, 22);
             this.txt_producto.TabIndex = 1;
             this.txt_producto.Text = "Producto";
             this.txt_producto.Enter += new System.EventHandler(this.txt_producto_Enter);
@@ -75,11 +75,11 @@
             // 
             this.txt_cantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txt_cantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_cantidad.Font = new System.Drawing.Font("Minion Pro Cond", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_cantidad.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txt_cantidad.Location = new System.Drawing.Point(66, 148);
             this.txt_cantidad.Name = "txt_cantidad";
-            this.txt_cantidad.Size = new System.Drawing.Size(229, 27);
+            this.txt_cantidad.Size = new System.Drawing.Size(229, 22);
             this.txt_cantidad.TabIndex = 2;
             this.txt_cantidad.Text = "Cantidad";
             this.txt_cantidad.Enter += new System.EventHandler(this.txt_cantidad_Enter);
@@ -89,11 +89,11 @@
             // 
             this.txt_precio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txt_precio.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_precio.Font = new System.Drawing.Font("Minion Pro Cond", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_precio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_precio.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txt_precio.Location = new System.Drawing.Point(66, 188);
             this.txt_precio.Name = "txt_precio";
-            this.txt_precio.Size = new System.Drawing.Size(229, 27);
+            this.txt_precio.Size = new System.Drawing.Size(229, 22);
             this.txt_precio.TabIndex = 3;
             this.txt_precio.Text = "Precio";
             this.txt_precio.Enter += new System.EventHandler(this.txt_precio_Enter);
@@ -104,7 +104,7 @@
             this.btn_agregar.FlatAppearance.BorderSize = 0;
             this.btn_agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregar.Font = new System.Drawing.Font("Minion Pro", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregar.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_agregar.Location = new System.Drawing.Point(66, 291);
             this.btn_agregar.Name = "btn_agregar";
@@ -175,6 +175,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // producagregar
             // 

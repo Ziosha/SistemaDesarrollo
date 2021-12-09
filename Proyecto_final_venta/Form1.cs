@@ -95,29 +95,22 @@ namespace Proyecto_final_venta
         }
         private void btn_ingreso_Click(object sender, EventArgs e)
         {
-            bool exregistros = true;
+           
 
-            if (exregistros)
-            {
-                if (txt_user.Text == "administrador" && txt_pass.Text == "admin")
+            
+                if (txt_user.Text == "admin" && txt_pass.Text == "admin")
                 {
-                    MessageBox.Show("bienvenido");
+                    MessageBox.Show(" >>>>   bienvenido  <<<<");
                     Interfazadm adm = new Interfazadm();
                     adm.Show();
                     this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("bienvenido");
-                    interfazuser use = new interfazuser();
-                    use.Show();
-                    this.Hide();
+                    MessageBox.Show("Datos incorrectos", "ERROR");
                 }
-            }
-            else
-            {
-                MessageBox.Show("Datos incorrectos", "ERROR");
-            }
+            
+          
         }
 
         private void button2_Click(object sender, EventArgs e)

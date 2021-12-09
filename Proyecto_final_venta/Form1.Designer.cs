@@ -127,9 +127,9 @@
             this.label1.ForeColor = System.Drawing.Color.DarkBlue;
             this.label1.Location = new System.Drawing.Point(11, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Ingreso";
+            this.label1.Text = "Login";
             // 
             // panel1
             // 

@@ -34,8 +34,8 @@ namespace Proyecto_final_venta
             if (txt_item.Text == "Item")
             {
                 txt_item.Text = "";
-                txt_item.ForeColor = Color.White;
-                panel1.BackColor = Color.White;
+                txt_item.ForeColor = Color.Turquoise;
+                panel1.BackColor = Color.Turquoise;
             }
         }
 
@@ -44,8 +44,8 @@ namespace Proyecto_final_venta
             if (txt_item.Text == "")
             {
                 txt_item.Text = "Item";
-                txt_item.ForeColor = Color.Blue;
-                panel1.BackColor = Color.Blue;
+                txt_item.ForeColor = Color.White;
+                panel1.BackColor = Color.White;
             }
         }
 
@@ -54,8 +54,8 @@ namespace Proyecto_final_venta
             if (txt_producto.Text == "Producto")
             {
                 txt_producto.Text = "";
-                txt_producto.ForeColor = Color.White;
-                panel2.BackColor = Color.White;
+                txt_producto.ForeColor = Color.Turquoise;
+                panel2.BackColor = Color.Turquoise;
             }
         }
 
@@ -64,8 +64,8 @@ namespace Proyecto_final_venta
             if (txt_producto.Text == "")
             {
                 txt_producto.Text = "Producto";
-                txt_producto.ForeColor = Color.Blue;
-                panel2.BackColor = Color.Blue;
+                txt_producto.ForeColor = Color.White;
+                panel2.BackColor = Color.White;
             }
         }
 
@@ -74,8 +74,8 @@ namespace Proyecto_final_venta
             if (txt_cantidad.Text == "Cantidad")
             {
                 txt_cantidad.Text = "";
-                txt_cantidad.ForeColor = Color.White;
-                panel3.BackColor = Color.White;
+                txt_cantidad.ForeColor = Color.Turquoise;
+                panel3.BackColor = Color.Turquoise;
             }
         }
 
@@ -84,8 +84,8 @@ namespace Proyecto_final_venta
             if (txt_cantidad.Text == "")
             {
                 txt_cantidad.Text = "cantidad";
-                txt_cantidad.ForeColor = Color.Blue;
-                panel3.BackColor = Color.Blue;
+                txt_cantidad.ForeColor = Color.White;
+                panel3.BackColor = Color.White;
             }
         }
 
@@ -94,8 +94,8 @@ namespace Proyecto_final_venta
             if (txt_precio.Text == "Precio")
             {
                 txt_precio.Text = "";
-                txt_precio.ForeColor = Color.White;
-                panel4.BackColor = Color.White;
+                txt_precio.ForeColor = Color.Turquoise;
+                panel4.BackColor = Color.Turquoise;
             }
         }
 
@@ -104,8 +104,8 @@ namespace Proyecto_final_venta
             if (txt_precio.Text == "")
             {
                 txt_precio.Text = "precio";
-                txt_precio.ForeColor = Color.Blue;
-                panel4.BackColor = Color.Blue;
+                txt_precio.ForeColor = Color.White;
+                panel4.BackColor = Color.White;
             }
         }
 
@@ -136,6 +136,11 @@ namespace Proyecto_final_venta
                 Left = Left + (e.X - posx);
                 Top = Top + (e.Y - posy);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

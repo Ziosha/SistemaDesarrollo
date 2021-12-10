@@ -49,5 +49,11 @@ namespace Proyecto_final_venta
             eliminarproducto elim = new eliminarproducto();
             elim.Show();
         }
+
+        private void btn_act_Click(object sender, EventArgs e)
+        {
+            actualizarproveedor actu = new actualizarproveedor();
+            actu.Show();
+        }
     }
 }

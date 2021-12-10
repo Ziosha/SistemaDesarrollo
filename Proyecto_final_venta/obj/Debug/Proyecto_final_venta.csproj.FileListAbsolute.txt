@@ -109,3 +109,5 @@ C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDe
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.actualizarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productomodificar.resources

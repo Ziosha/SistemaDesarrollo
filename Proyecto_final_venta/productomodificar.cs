@@ -11,11 +11,11 @@ using System.Data.SqlClient;
 
 namespace Proyecto_final_venta
 {
-    public partial class actualizarproveedor : Form
+    public partial class productomodificar : Form
     {
         static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
         SqlConnection conexion = new SqlConnection(conexionstr);
-        public actualizarproveedor()
+        public productomodificar()
         {
             InitializeComponent();
             conexion.Open();
@@ -23,10 +23,10 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string query = "update Proveedor set nomProveedor = '" + txt_nom.Text + "', direccionProveedor ='" + txt_dir.Text + "'," +
-               "telefonoProveedor = '" + txt_tel.Text + "' " +
-               "where codProveedor = '" + txt_id.Text + "'";
-
+            string query = "update Producto set codProveedor = "+txt_idprov.Text+", descripcionProducto ='"+txt_des.Text+"'," +
+                "precioCompra = "+txt_pre.Text+", cantidad = "+txt_cant.Text+"   " +
+                "where codProducto = '"+txt_id.Text+"'" ;
+                       
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();

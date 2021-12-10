@@ -112,6 +112,12 @@
     <Compile Include="productoconsultar.Designer.cs">
       <DependentUpon>productoconsultar.cs</DependentUpon>
     </Compile>
+    <Compile Include="productomodificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productomodificar.Designer.cs">
+      <DependentUpon>productomodificar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     <Compile Include="compra.Designer.cs">
       <DependentUpon>compra.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="actualizarproveedor.resx">
+      <DependentUpon>actualizarproveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="agregarproveedor.resx">
       <DependentUpon>agregarproveedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="productoconsultar.resx">
       <DependentUpon>productoconsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productomodificar.resx">
+      <DependentUpon>productomodificar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>

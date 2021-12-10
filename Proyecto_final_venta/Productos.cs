@@ -69,5 +69,11 @@ namespace Proyecto_final_venta
 
             borrar.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            productomodificar mod = new productomodificar();
+            mod.Show();
+        }
     }
 }

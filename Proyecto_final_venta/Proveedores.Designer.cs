@@ -102,6 +102,7 @@
             this.btn_act.TabIndex = 4;
             this.btn_act.Text = "Actualizar";
             this.btn_act.UseVisualStyleBackColor = true;
+            this.btn_act.Click += new System.EventHandler(this.btn_act_Click);
             // 
             // Proveedores
             // 

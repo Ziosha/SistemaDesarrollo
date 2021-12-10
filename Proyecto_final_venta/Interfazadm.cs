@@ -97,6 +97,20 @@ namespace Proyecto_final_venta
             this.Hide();
         }
 
-       
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            ActiveForm.Opacity = 10.0;
+           
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

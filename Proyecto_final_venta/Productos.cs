@@ -8,14 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 
+ 
+            
 namespace Proyecto_final_venta
 {
+   
     public partial class Productos : Form
+
     {
+        static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
+        SqlConnection conexion = new SqlConnection(conexionstr);
+
         public Productos()
         {
             InitializeComponent();
+            conexion.Open();
         }
 
         private void inventarioBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -28,19 +37,13 @@ namespace Proyecto_final_venta
 
         private void Productos_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'proyecto_finalDataSet.Inventario' Puede moverla o quitarla según sea necesario.
-            //this.inventarioTableAdapter.Fill(this.proyecto_finalDataSet.Inventario);
-
-           /* string datas = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\proyecto_final.accdb";
-            OleDbConnection conex = new OleDbConnection(datas);
-            conex.Open();
-
-            string sql = "Select* From Inventario";
-            OleDbDataAdapter adap = new OleDbDataAdapter(sql, datas);
-            DataSet ds = new DataSet();
-            adap.Fill(ds, "Inventario");
-            dgresult.DataSource = ds.Tables["Inventario"];
-            dgresult.ReadOnly = true;*/
+                string query = "select * from producto";
+                SqlCommand comando = new SqlCommand(query, conexion);
+                SqlDataAdapter data = new SqlDataAdapter(comando);
+                DataTable dt = new DataTable();
+                data.Fill(dt);
+                dgresult.DataSource = dt;
+            
         }
          private void btn_refrescar_Click(object sender, EventArgs e)
         {
@@ -53,7 +56,17 @@ namespace Proyecto_final_venta
 
             agregar.Show();
         }
-        
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            eliminarproducto borrar = new eliminarproducto();
+
+            borrar.Show();
+        }
     }
 }

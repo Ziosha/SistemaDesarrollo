@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Proyecto_final_venta
 {
     public partial class Form1 : Form
     {
+        static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
+        SqlConnection conexion = new SqlConnection(conexionstr);
         public Form1()
         {
             InitializeComponent();
+            conexion.Open();
         }
         int posx = 0;
         int posy = 0;
@@ -95,29 +99,27 @@ namespace Proyecto_final_venta
         }
         private void btn_ingreso_Click(object sender, EventArgs e)
         {
-            bool exregistros = true;
+            
+            string query = "select loginU, passwordU from Usuario where loginU ='"+txt_user.Text +"' and passwordU = '"+txt_pass.Text+"' ";
+            SqlCommand comando = new SqlCommand(query, conexion);
+            SqlDataReader lectordata;
+            lectordata = comando.ExecuteReader();
+            Boolean ex = lectordata.Read();
+            conexion.Close();
 
-            if (exregistros)
-            {
-                if (txt_user.Text == "administrador" && txt_pass.Text == "admin")
+            if (ex)
                 {
-                    MessageBox.Show("bienvenido");
+                    MessageBox.Show(" >>>>   bienvenido  <<<<");
                     Interfazadm adm = new Interfazadm();
                     adm.Show();
                     this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("bienvenido");
-                    interfazuser use = new interfazuser();
-                    use.Show();
-                    this.Hide();
+                    MessageBox.Show("Datos incorrectos", "ERROR");
                 }
-            }
-            else
-            {
-                MessageBox.Show("Datos incorrectos", "ERROR");
-            }
+            
+          
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -52,13 +52,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="agregarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregarproveedor.Designer.cs">
+      <DependentUpon>agregarproveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Agregaruser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Agregaruser.Designer.cs">
       <DependentUpon>Agregaruser.cs</DependentUpon>
     </Compile>
-    <Compile Include="clasefuncion.cs" />
+    <Compile Include="eliminarproducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminarproducto.Designer.cs">
+      <DependentUpon>eliminarproducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eliminarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminarproveedor.Designer.cs">
+      <DependentUpon>eliminarproveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,12 +99,6 @@
     </Compile>
     <Compile Include="Productos.Designer.cs">
       <DependentUpon>Productos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="productouser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="productouser.Designer.cs">
-      <DependentUpon>productouser.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,8 +125,17 @@
     <Compile Include="compra.Designer.cs">
       <DependentUpon>compra.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="agregarproveedor.resx">
+      <DependentUpon>agregarproveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Agregaruser.resx">
       <DependentUpon>Agregaruser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminarproducto.resx">
+      <DependentUpon>eliminarproducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminarproveedor.resx">
+      <DependentUpon>eliminarproveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -128,9 +148,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="productouser.resx">
-      <DependentUpon>productouser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

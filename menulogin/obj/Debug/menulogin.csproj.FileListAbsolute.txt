@@ -8,3 +8,14 @@ C:\Users\KEVIN\Desktop\DESARROLLO DE S.1\windows form\menulogin\obj\Debug\menulo
 C:\Users\KEVIN\Desktop\DESARROLLO DE S.1\windows form\menulogin\obj\Debug\menulogin.csproj.CoreCompileInputs.cache
 C:\Users\KEVIN\Desktop\DESARROLLO DE S.1\windows form\menulogin\obj\Debug\menulogin.exe
 C:\Users\KEVIN\Desktop\DESARROLLO DE S.1\windows form\menulogin\obj\Debug\menulogin.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\bin\Debug\menulogin.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\bin\Debug\menulogin.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\bin\Debug\menulogin.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.csproj.AssemblyReference.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\menulogin\obj\Debug\menulogin.pdb

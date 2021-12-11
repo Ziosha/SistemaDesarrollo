@@ -91,5 +91,10 @@ namespace Proyecto_final_venta
                 Top = Top + (e.Y - posy);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

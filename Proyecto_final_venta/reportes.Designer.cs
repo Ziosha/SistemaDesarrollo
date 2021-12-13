@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgresult = new System.Windows.Forms.DataGridView();
+            this.dgv_resul = new System.Windows.Forms.DataGridView();
             this.re_comp = new System.Windows.Forms.Button();
             this.re_ven = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgresult)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_resul)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgresult
+            // dgv_resul
             // 
-            this.dgresult.AllowUserToAddRows = false;
-            this.dgresult.AllowUserToDeleteRows = false;
-            this.dgresult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgresult.Location = new System.Drawing.Point(12, 25);
-            this.dgresult.Name = "dgresult";
-            this.dgresult.ReadOnly = true;
-            this.dgresult.Size = new System.Drawing.Size(647, 305);
-            this.dgresult.TabIndex = 0;
+            this.dgv_resul.AllowUserToAddRows = false;
+            this.dgv_resul.AllowUserToDeleteRows = false;
+            this.dgv_resul.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_resul.Location = new System.Drawing.Point(12, 25);
+            this.dgv_resul.Name = "dgv_resul";
+            this.dgv_resul.ReadOnly = true;
+            this.dgv_resul.Size = new System.Drawing.Size(647, 305);
+            this.dgv_resul.TabIndex = 0;
             // 
             // re_comp
             // 
             this.re_comp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.re_comp.ForeColor = System.Drawing.Color.Black;
-            this.re_comp.Location = new System.Drawing.Point(12, 398);
+            this.re_comp.Location = new System.Drawing.Point(68, 373);
             this.re_comp.Name = "re_comp";
             this.re_comp.Size = new System.Drawing.Size(191, 29);
             this.re_comp.TabIndex = 1;
@@ -61,12 +61,13 @@
             // 
             this.re_ven.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.re_ven.ForeColor = System.Drawing.Color.Black;
-            this.re_ven.Location = new System.Drawing.Point(254, 398);
+            this.re_ven.Location = new System.Drawing.Point(362, 373);
             this.re_ven.Name = "re_ven";
             this.re_ven.Size = new System.Drawing.Size(191, 29);
             this.re_ven.TabIndex = 2;
             this.re_ven.Text = "Reporte Vencidos";
             this.re_ven.UseVisualStyleBackColor = true;
+            this.re_ven.Click += new System.EventHandler(this.re_ven_Click);
             // 
             // reportes
             // 
@@ -76,21 +77,21 @@
             this.ClientSize = new System.Drawing.Size(692, 512);
             this.Controls.Add(this.re_ven);
             this.Controls.Add(this.re_comp);
-            this.Controls.Add(this.dgresult);
+            this.Controls.Add(this.dgv_resul);
             this.ForeColor = System.Drawing.Color.SpringGreen;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "reportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "reportes";
             this.Load += new System.EventHandler(this.reportes_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgresult)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_resul)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgresult;
+        private System.Windows.Forms.DataGridView dgv_resul;
         private System.Windows.Forms.Button re_comp;
         private System.Windows.Forms.Button re_ven;
     }

@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{59C732FE-9E15-4C3F-A856-3CA5C8A636AD}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Proyecto_final_venta</RootNamespace>
     <AssemblyName>Proyecto_final_venta</AssemblyName>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
@@ -149,6 +152,12 @@
     <Compile Include="compra.Designer.cs">
       <DependentUpon>compra.cs</DependentUpon>
     </Compile>
+    <Compile Include="usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuarios.Designer.cs">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="actualizarproveedor.resx">
       <DependentUpon>actualizarproveedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="compra.resx">
       <DependentUpon>compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuarios.resx">
+      <DependentUpon>usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

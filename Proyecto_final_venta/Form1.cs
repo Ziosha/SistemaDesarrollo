@@ -106,14 +106,22 @@ namespace Proyecto_final_venta
             lectordata = comando.ExecuteReader();
             Boolean ex = lectordata.Read();
             conexion.Close();
-
             if (ex)
                 {
+                    conexion.Open();
+                    string priv = "select codigoPriv from Usuario where loginU ='" + txt_user.Text + "' and passwordU = '" + txt_pass.Text + "' and codigoPriv = 'a'";
+                    SqlCommand comand = new SqlCommand(priv, conexion);
+                    SqlDataReader dt;
+                    dt = comand.ExecuteReader();
+                    Boolean x = dt.Read();
+                    Console.WriteLine(x);
+                    conexion.Close();
                     MessageBox.Show(" >>>>   bienvenido  <<<<");
-                    Interfazadm adm = new Interfazadm();
+                   
+                    Interfazadm adm = new Interfazadm(x);
                     adm.Show();
                     this.Hide();
-                }
+            }
                 else
                 {
                     MessageBox.Show("Datos incorrectos", "ERROR");

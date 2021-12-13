@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Interfazadm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_user = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_reportes = new System.Windows.Forms.Button();
             this.btn_usuarios = new System.Windows.Forms.Button();
@@ -51,6 +52,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.btn_user);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btn_reportes);
             this.panel1.Controls.Add(this.btn_usuarios);
@@ -60,6 +62,25 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(182, 535);
             this.panel1.TabIndex = 6;
+            // 
+            // btn_user
+            // 
+            this.btn_user.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.btn_user.FlatAppearance.BorderSize = 0;
+            this.btn_user.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_user.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_user.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_user.ForeColor = System.Drawing.Color.White;
+            this.btn_user.Image = ((System.Drawing.Image)(resources.GetObject("btn_user.Image")));
+            this.btn_user.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_user.Location = new System.Drawing.Point(3, 384);
+            this.btn_user.Name = "btn_user";
+            this.btn_user.Size = new System.Drawing.Size(179, 40);
+            this.btn_user.TabIndex = 18;
+            this.btn_user.Text = "Usuarios";
+            this.btn_user.UseVisualStyleBackColor = false;
+            this.btn_user.Visible = false;
+            this.btn_user.Click += new System.EventHandler(this.btn_user_Click);
             // 
             // button1
             // 
@@ -301,6 +322,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel_forms;
         private System.Windows.Forms.Button button1;
-
+        private System.Windows.Forms.Button btn_user;
     }
 }

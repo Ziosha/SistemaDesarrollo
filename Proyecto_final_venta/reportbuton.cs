@@ -7,25 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace Proyecto_final_venta
 {
-    public partial class reportes : Form
+    public partial class reportbuton : Form
     {
-        public reportes()
+        public reportbuton()
         {
             InitializeComponent();
-        }
-
-        private void reportes_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void re_comp_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

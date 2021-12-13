@@ -116,7 +116,19 @@ namespace Proyecto_final_venta
                     Boolean x = dt.Read();
                     Console.WriteLine(x);
                     conexion.Close();
-                    MessageBox.Show(" >>>>   bienvenido  <<<<");
+
+
+                var fecha = DateTime.Now;
+                var Date = fecha.Date.ToString("yyyy-MM-dd");
+
+                Console.WriteLine("The Current Date Without Time is {0}.", Date);
+
+                string hora = DateTime.Now.ToString("hh:mm:ss tt");
+                Console.WriteLine(hora);
+
+                MessageBox.Show(" >>>>   bienvenido    " +
+                    "fecha de inicio "+ Date  +
+                    " hora de inico  "+ hora + " <<<<");
                    
                     Interfazadm adm = new Interfazadm(x);
                     adm.Show();

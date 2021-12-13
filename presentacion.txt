@@ -1,0 +1,21 @@
+sistema de desarrollo 1
+algo
+
+insert into Proveedores(codProveedor, nomProveedor, direccionProveedor, telefonoProveedor)
+values (1001,'JOSE','Obrajes-calle 12-Nro.14','2274633')
+
+insert into Proveedores(codProveedor, nomProveedor, direccionProveedor, telefonoProveedor)
+values (1002,'PEDRO','Miraflores-calle 2B-Nro.12','2233233')
+
+insert into Proveedores(codProveedor, nomProveedor, direccionProveedor, telefonoProveedor)
+values (1001,'PABLO','Calacoto-calle 24-Nro.23','2274633')
+
+insert into Proveedores(codProveedor, nomProveedor, direccionProveedor, telefonoProveedor)
+values (1001,'JOSE','Obrajes-calle 12-Nro.14','2326833')
+
+insert into Proveedores(codProveedor, nomProveedor, direccionProveedor, telefonoProveedor)
+values (1001,'ANGEL','Ayacucho-calle 212-Nro-32','2279933')
+
+select *
+from Proveedores
+tywqttygsgh

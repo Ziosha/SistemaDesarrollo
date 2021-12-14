@@ -106,14 +106,34 @@ namespace Proyecto_final_venta
             lectordata = comando.ExecuteReader();
             Boolean ex = lectordata.Read();
             conexion.Close();
-
             if (ex)
                 {
-                    MessageBox.Show(" >>>>   bienvenido  <<<<");
-                    Interfazadm adm = new Interfazadm();
+                    conexion.Open();
+                    string priv = "select codigoPriv from Usuario where loginU ='" + txt_user.Text + "' and passwordU = '" + txt_pass.Text + "' and codigoPriv = 'a'";
+                    SqlCommand comand = new SqlCommand(priv, conexion);
+                    SqlDataReader dt;
+                    dt = comand.ExecuteReader();
+                    Boolean x = dt.Read();
+                    Console.WriteLine(x);
+                    conexion.Close();
+
+
+                var fecha = DateTime.Now;
+                var Date = fecha.Date.ToString("yyyy-MM-dd");
+
+                Console.WriteLine("The Current Date Without Time is {0}.", Date);
+
+                string hora = DateTime.Now.ToString("hh:mm:ss tt");
+                Console.WriteLine(hora);
+
+                MessageBox.Show(" >>>>   bienvenido    " +
+                    "fecha de inicio "+ Date  +
+                    " hora de inico  "+ hora + " <<<<");
+                   
+                    Interfazadm adm = new Interfazadm(x);
                     adm.Show();
                     this.Hide();
-                }
+            }
                 else
                 {
                     MessageBox.Show("Datos incorrectos", "ERROR");

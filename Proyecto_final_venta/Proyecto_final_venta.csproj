@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{59C732FE-9E15-4C3F-A856-3CA5C8A636AD}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Proyecto_final_venta</RootNamespace>
     <AssemblyName>Proyecto_final_venta</AssemblyName>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
@@ -52,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="actualizarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actualizarproveedor.Designer.cs">
+      <DependentUpon>actualizarproveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="agregarproveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +72,12 @@
     </Compile>
     <Compile Include="Agregaruser.Designer.cs">
       <DependentUpon>Agregaruser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultarproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultarproveedor.Designer.cs">
+      <DependentUpon>consultarproveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="eliminarproducto.cs">
       <SubType>Form</SubType>
@@ -94,6 +109,18 @@
     <Compile Include="producagregar.Designer.cs">
       <DependentUpon>producagregar.cs</DependentUpon>
     </Compile>
+    <Compile Include="productoconsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productoconsultar.Designer.cs">
+      <DependentUpon>productoconsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productomodificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productomodificar.Designer.cs">
+      <DependentUpon>productomodificar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +133,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>proyecto_finalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reportbuton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportbuton.Designer.cs">
+      <DependentUpon>reportbuton.cs</DependentUpon>
     </Compile>
     <Compile Include="reportes.cs">
       <SubType>Form</SubType>
@@ -125,11 +158,23 @@
     <Compile Include="compra.Designer.cs">
       <DependentUpon>compra.cs</DependentUpon>
     </Compile>
+    <Compile Include="usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuarios.Designer.cs">
+      <DependentUpon>usuarios.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="actualizarproveedor.resx">
+      <DependentUpon>actualizarproveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="agregarproveedor.resx">
       <DependentUpon>agregarproveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Agregaruser.resx">
       <DependentUpon>Agregaruser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultarproveedor.resx">
+      <DependentUpon>consultarproveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="eliminarproducto.resx">
       <DependentUpon>eliminarproducto.cs</DependentUpon>
@@ -146,6 +191,12 @@
     <EmbeddedResource Include="producagregar.resx">
       <DependentUpon>producagregar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="productoconsultar.resx">
+      <DependentUpon>productoconsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productomodificar.resx">
+      <DependentUpon>productomodificar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +210,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="reportbuton.resx">
+      <DependentUpon>reportbuton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="reportes.resx">
       <DependentUpon>reportes.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="compra.resx">
       <DependentUpon>compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuarios.resx">
+      <DependentUpon>usuarios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

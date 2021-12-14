@@ -7,15 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Proyecto_final_venta
 {
     public partial class Interfazadm : Form
     {
-        public Interfazadm()
+        static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
+        SqlConnection conexion = new SqlConnection(conexionstr);
+        public Interfazadm(Boolean x)
         {
             InitializeComponent();
             btn_cuad.Visible = false;
+            conexion.Open();
+            if (x)
+            {
+               btn_user.Visible = true;
+            }
+
+
+           
+
+
         }
         int posx = 0;
         int posy = 0;
@@ -97,20 +110,9 @@ namespace Proyecto_final_venta
             this.Hide();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void btn_user_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox2_Click_1(object sender, EventArgs e)
-        {
-            ActiveForm.Opacity = 10.0;
-           
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            AbrirFormEnPanel(new usuarios());
         }
     }
 }

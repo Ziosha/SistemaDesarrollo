@@ -78,29 +78,38 @@ C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_ve
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
-<<<<<<< HEAD
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csprojAssemblyReference.cache
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productouser.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
-=======
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
 C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
->>>>>>> f3d95d8c504705d3da9dfd1b348a3e76e3ac935a
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
-D:\ProyectoDS1\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.AssemblyReference.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.actualizarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productomodificar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportbuton.resources

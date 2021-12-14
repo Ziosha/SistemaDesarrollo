@@ -33,7 +33,9 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            consultarproveedor cons = new consultarproveedor();
+            cons.Show();
+
         }
 
         private void btn_agre_Click(object sender, EventArgs e)
@@ -46,6 +48,12 @@ namespace Proyecto_final_venta
         {
             eliminarproducto elim = new eliminarproducto();
             elim.Show();
+        }
+
+        private void btn_act_Click(object sender, EventArgs e)
+        {
+            actualizarproveedor actu = new actualizarproveedor();
+            actu.Show();
         }
     }
 }

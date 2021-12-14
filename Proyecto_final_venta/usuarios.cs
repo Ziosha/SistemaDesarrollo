@@ -7,46 +7,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
-
 using System.Data.SqlClient;
 
 namespace Proyecto_final_venta
 {
-    public partial class reportes : Form
+    public partial class usuarios : Form
     {
         static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
         SqlConnection conexion = new SqlConnection(conexionstr);
-        public reportes()
+        public usuarios()
         {
-            
             InitializeComponent();
             conexion.Open();
+
+
         }
 
-        private void reportes_Load(object sender, EventArgs e)
+        private void usuarios_Load(object sender, EventArgs e)
         {
-           
-        }
-
-        private void re_comp_Click(object sender, EventArgs e)
-        {
-            string query = "select codProducto, cantidad, precioCompra from Producto";
+            string query = "select * from Usuario";
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();
             data.Fill(dt);
-            dgv_resul.DataSource = dt;
-        }
-
-        private void re_ven_Click(object sender, EventArgs e)
-        {
-            string query = "select codProducto, fechaVencimiento from Producto";
-            SqlCommand comando = new SqlCommand(query, conexion);
-            SqlDataAdapter data = new SqlDataAdapter(comando);
-            DataTable dt = new DataTable();
-            data.Fill(dt);
-            dgv_resul.DataSource = dt;
+            dvg_user.DataSource = dt;
         }
     }
 }

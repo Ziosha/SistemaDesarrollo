@@ -31,7 +31,7 @@ namespace Proyecto_final_venta
 
         private void re_comp_Click(object sender, EventArgs e)
         {
-            string query = "select codProducto, cantidad, precioCompra from Producto";
+            string query = "select producto.codProducto, producto.cantidad, producto.precioCompra, fechaCompra from Producto inner join compra on compra.codProducto = producto.codProducto ";
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();
@@ -41,7 +41,7 @@ namespace Proyecto_final_venta
 
         private void re_ven_Click(object sender, EventArgs e)
         {
-            string query = "select codProducto, fechaVencimiento from Producto";
+            string query = "select codProducto, cantidad, precioCompra, fechaVencimiento from Producto where fechaVencimiento< '2021-12-13'";
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();

@@ -78,7 +78,7 @@
             this.Controls.Add(this.re_ven);
             this.Controls.Add(this.re_comp);
             this.Controls.Add(this.dgv_resul);
-            this.ForeColor = System.Drawing.Color.SpringGreen;
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "reportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -1,0 +1,300 @@
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\proyecto_final.accdb
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csprojResolveAssemblyReference.cache
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.Cache
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.interfazuser.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.ventas.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productouser.resources
+C:\Users\HP 245\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\proyecto_final.accdb
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csprojAssemblyReference.cache
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.interfazuser.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productouser.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.ventas.resources
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\Ziosha Dark\Documents\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\proyecto_final.accdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.AssemblyReference.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.interfazuser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productouser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.ventas.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\doc\Visual Studio 2013\Projects\c#\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.AssemblyReference.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\Proyecto_final_venta\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.AssemblyReference.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.actualizarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productomodificar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportbuton.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.devolucion.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportDevolucion.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Pagoprov.resources
+C:\Users\Usuario.DARK-AHSOIZ\Documents\Visual Studio 2022\proj\sistema\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Ticket.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.AssemblyReference.cache
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.actualizarproveedor.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.devolucion.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Pagoprov.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productomodificar.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportbuton.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportDevolucion.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Ticket.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\EnvDTE.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\stdole.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.MSXML.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.FormMercancia.resources
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\RdlCompile.cache
+C:\Users\PC\Pictures\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\RdlCompile.compiled
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe.config
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\EnvDTE.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\stdole.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.actualizarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.agregarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Agregaruser.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.consultarproveedor.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.devolucion.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.eliminarproducto.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.btn_eliminar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Form1.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Interfazadm.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Pagoprov.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.producagregar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productoconsultar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.productomodificar.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Productos.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Properties.Resources.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportbuton.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportDevolucion.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.reportes.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Proveedores.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.compra.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.Ticket.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.usuarios.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.GenerateResource.cache
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CoreCompileInputs.cache
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.CopyComplete
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.exe
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.pdb
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.viewcompra.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.viewvencido.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.viewprov.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.viewinventario.resources
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\bin\Debug\EnvDTE.xml
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario.DARK-AHSOIZ\Desktop\SistemaDesarrollo\SistemaDesarrollo\Proyecto_final_venta\obj\Debug\Proyecto_final_venta.csproj.AssemblyReference.cache

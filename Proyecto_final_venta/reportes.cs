@@ -31,22 +31,57 @@ namespace Proyecto_final_venta
 
         private void re_comp_Click(object sender, EventArgs e)
         {
-            string query = "select producto.codProducto, producto.cantidad, producto.precioCompra, fechaCompra from Producto inner join compra on compra.codProducto = producto.codProducto ";
+            string query = "select * from Compra";
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();
             data.Fill(dt);
             dgv_resul.DataSource = dt;
+            viewcompra com = new viewcompra();
+            com.Show();
+
+
+
         }
 
         private void re_ven_Click(object sender, EventArgs e)
+
         {
-            string query = "select codProducto, cantidad, precioCompra, fechaVencimiento from Producto where fechaVencimiento< '2021-12-13'";
+            var fecha = DateTime.Now;
+            var Date = fecha.Date.ToString("yyyy-MM-dd");
+
+
+            string query = "delete reportven insert into reportven(codProducto, cantidad, descripcionProducto, precioCompra, fechaVencimiento) select codProducto, cantidad, descripcionProducto, precioCompra, fechaVencimiento from Producto where fechaVencimiento < '"+Date+"' ";
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();
             data.Fill(dt);
             dgv_resul.DataSource = dt;
+
+            viewvencido ven = new viewvencido();
+            ven.Show();
+
+
+        }
+
+        private void reporte_inv_Click(object sender, EventArgs e)
+        {
+            viewinventario inven = new viewinventario();
+            inven.Show();
+            
+        }
+
+        private void btn_prov_Click(object sender, EventArgs e)
+        {
+            string query = "delete reportprov insert into reportprov(telefono, nomProveedor, codProducto, descripcionProducto, precioCompra) select telefonoProveedor, nomProveedor, codProducto, descripcionProducto, precioCompra from Proveedor inner join Producto on Producto.codProveedor = Proveedor.codProveedor order by(nomProveedor)";
+            SqlCommand comando = new SqlCommand(query, conexion);
+            SqlDataAdapter data = new SqlDataAdapter(comando);
+            DataTable dt = new DataTable();
+            data.Fill(dt);
+            dgv_resul.DataSource = dt;
+
+            viewprov prov = new viewprov();
+            prov.Show();
         }
     }
 }

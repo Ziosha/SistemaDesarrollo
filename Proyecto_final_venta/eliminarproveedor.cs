@@ -22,14 +22,27 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string cadena = "Delete from Producto where codProveedor = '" + elimina.Text + "'Delete from Proveedor where codProveedor = '" + elimina.Text + "'";
-            SqlCommand comando = new SqlCommand(cadena, conexion);
-            SqlDataAdapter data = new SqlDataAdapter(comando);
-            DataTable tabla = new DataTable();
-            data.Fill(tabla);
-            Close();
-            MessageBox.Show("se realizo la eliminacion correctamente");
+            try
+            {
+                string cadena = "update Proveedor set ocultar = 'f' where codProveedor = " + elimina.Text +  "";
+                SqlCommand comando = new SqlCommand(cadena, conexion);
+                SqlDataAdapter data = new SqlDataAdapter(comando);
+                DataTable tabla = new DataTable();
+                data.Fill(tabla);
+                Close();
+                MessageBox.Show("se realizo la eliminacion correctamente");
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("Datos Incorrectos", error.Message);
+            }
+           
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -23,14 +23,27 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string query = "update Producto set codProveedor = "+txt_idprov.Text+", descripcionProducto ='"+txt_des.Text+"'," +
-                "precioCompra = "+txt_pre.Text+", cantidad = "+txt_cant.Text+"   " +
-                "where codProducto = '"+txt_id.Text+"'" ;
-                       
-            SqlCommand comando = new SqlCommand(query, conexion);
-            SqlDataAdapter data = new SqlDataAdapter(comando);
-            DataTable dt = new DataTable();
-            data.Fill(dt);
+            try
+            {
+                string query = "update Producto set codProveedor = " + txt_idprov.Text + ", descripcionProducto ='" + txt_des.Text + "'," +
+                "precioCompra = " + txt_pre.Text + ", cantidad = " + txt_cant.Text + "   " +
+                "where codProducto = '" + txt_id.Text + "'";
+
+                SqlCommand comando = new SqlCommand(query, conexion);
+                SqlDataAdapter data = new SqlDataAdapter(comando);
+                DataTable dt = new DataTable();
+                data.Fill(dt);
+                Close();
+            }
+            catch(Exception err)
+            {
+                MessageBox.Show("Campos incorrectos" , err.Message);
+            }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             Close();
         }
     }

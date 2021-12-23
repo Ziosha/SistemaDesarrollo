@@ -33,5 +33,26 @@ namespace Proyecto_final_venta.Properties {
                 return ((string)(this["proyecto_finalConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=DataBase_DS;Integrated Security=True")]
+        public string DataBase_DSConnectionString {
+            get {
+                return ((string)(this["DataBase_DSConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DARK-AHSOIZ\\SQLEXPRESS;Initial Catalog=DataBase_DS;Integrated Securit" +
+            "y=True")]
+        public string DataBase_DSConnectionString1 {
+            get {
+                return ((string)(this["DataBase_DSConnectionString1"]));
+            }
+        }
     }
 }

@@ -29,15 +29,13 @@ namespace Proyecto_final_venta
 
         private void inventarioBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
-            this.Validate();
-            this.inventarioBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.proyecto_finalDataSet);
+            
 
         }
 
         private void Productos_Load(object sender, EventArgs e)
         {
-                string query = "select * from producto";
+                string query = "select codProducto,codProveedor, descripcionProducto,precioCompra,cantidad,fechaVencimiento,cantidadMin from producto where ocultar = 'v'";
                 SqlCommand comando = new SqlCommand(query, conexion);
                 SqlDataAdapter data = new SqlDataAdapter(comando);
                 DataTable dt = new DataTable();

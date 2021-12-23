@@ -29,7 +29,7 @@ namespace Proyecto_final_venta
             }
             else
             {
-                string query = "delete from producto where codProveedor = '"+id_eliminar.Text+"' delete from Proveedor where codProveedor = '"+id_eliminar.Text  +"'";
+                string query = "update Producto set ocultar = 'f' where codProducto = '"+id_eliminar.Text+"'";
                 SqlCommand comando = new SqlCommand(query, conexion);
                 SqlDataAdapter data = new SqlDataAdapter(comando);
                 DataTable dt = new DataTable();
@@ -38,6 +38,11 @@ namespace Proyecto_final_venta
                 MessageBox.Show("Dato eliminado correctamente");
                 Close();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

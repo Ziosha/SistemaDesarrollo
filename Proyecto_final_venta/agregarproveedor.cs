@@ -31,8 +31,8 @@ namespace Proyecto_final_venta
                 }
                 else
                 {
-                    string query = "insert into Proveedor (codProveedor, nomProveedor, direccionProveedor, telefonoProveedor)" +
-                        "values (" + txt_codProv.Text + ", '" + txt_nom.Text + "','" + txt_direc.Text + "','" + txt_tel.Text + "')";
+                    string query = "insert into Proveedor (codProveedor, nomProveedor, direccionProveedor, telefonoProveedor, ocultar)" +
+                        "values (" + txt_codProv.Text + ", '" + txt_nom.Text + "','" + txt_direc.Text + "','" + txt_tel.Text + "', 'v')";
                     SqlCommand comando = new SqlCommand(query, conexion);
                     SqlDataAdapter data = new SqlDataAdapter(comando);
                     DataTable dt = new DataTable();
@@ -47,6 +47,16 @@ namespace Proyecto_final_venta
             {
                 MessageBox.Show(error.Message);
             }
+        }
+
+        private void agregarproveedor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -31,5 +31,10 @@ namespace Proyecto_final_venta
             data.Fill(dt);
             dgvresult.DataSource = dt;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

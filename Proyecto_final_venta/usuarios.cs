@@ -32,5 +32,35 @@ namespace Proyecto_final_venta
             data.Fill(dt);
             dvg_user.DataSource = dt;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Agregaruser user = new Agregaruser();
+            user.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txt_del.Visible = true;
+            lbl.Visible = true;
+            button3.Visible = true;
+            
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string query = "delete Usuario where codigoUsuario = '" + txt_del.Text + "'";
+            SqlCommand comando = new SqlCommand(query, conexion);
+            SqlDataAdapter data = new SqlDataAdapter(comando);
+            DataTable dt = new DataTable();
+            data.Fill(dt);
+
+            MessageBox.Show("Usuario Eliminado");
+
+            txt_del.Visible = false;
+            lbl.Visible = false;
+            button3.Visible = false;
+        }
     }
 }

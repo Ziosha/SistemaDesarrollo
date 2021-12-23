@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{59C732FE-9E15-4C3F-A856-3CA5C8A636AD}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Proyecto_final_venta</RootNamespace>
     <AssemblyName>Proyecto_final_venta</AssemblyName>
@@ -38,6 +38,24 @@
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System">
@@ -79,6 +97,12 @@
     <Compile Include="consultarproveedor.Designer.cs">
       <DependentUpon>consultarproveedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="devolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devolucion.Designer.cs">
+      <DependentUpon>devolucion.cs</DependentUpon>
+    </Compile>
     <Compile Include="eliminarproducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +126,12 @@
     </Compile>
     <Compile Include="Interfazadm.Designer.cs">
       <DependentUpon>Interfazadm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagoprov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagoprov.Designer.cs">
+      <DependentUpon>Pagoprov.cs</DependentUpon>
     </Compile>
     <Compile Include="producagregar.cs">
       <SubType>Form</SubType>
@@ -129,16 +159,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="proyecto_finalDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>proyecto_finalDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="reportbuton.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="reportbuton.Designer.cs">
       <DependentUpon>reportbuton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportDevolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportDevolucion.Designer.cs">
+      <DependentUpon>reportDevolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportemerca.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportemerca.xsd</DependentUpon>
     </Compile>
     <Compile Include="reportes.cs">
       <SubType>Form</SubType>
@@ -158,11 +194,42 @@
     <Compile Include="compra.Designer.cs">
       <DependentUpon>compra.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket.Designer.cs">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </Compile>
     <Compile Include="usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="usuarios.Designer.cs">
       <DependentUpon>usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewcompra.Designer.cs">
+      <DependentUpon>viewcompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewinventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewinventario.Designer.cs">
+      <DependentUpon>viewinventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewprov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewprov.Designer.cs">
+      <DependentUpon>viewprov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewvencido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewvencido.Designer.cs">
+      <DependentUpon>viewvencido.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="actualizarproveedor.resx">
       <DependentUpon>actualizarproveedor.cs</DependentUpon>
@@ -176,6 +243,9 @@
     <EmbeddedResource Include="consultarproveedor.resx">
       <DependentUpon>consultarproveedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="devolucion.resx">
+      <DependentUpon>devolucion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="eliminarproducto.resx">
       <DependentUpon>eliminarproducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Interfazadm.resx">
       <DependentUpon>Interfazadm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagoprov.resx">
+      <DependentUpon>Pagoprov.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="producagregar.resx">
       <DependentUpon>producagregar.cs</DependentUpon>
@@ -213,6 +286,10 @@
     <EmbeddedResource Include="reportbuton.resx">
       <DependentUpon>reportbuton.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="reportcompra.rdlc" />
+    <EmbeddedResource Include="reportDevolucion.resx">
+      <DependentUpon>reportDevolucion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="reportes.resx">
       <DependentUpon>reportes.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,9 +299,28 @@
     <EmbeddedResource Include="compra.resx">
       <DependentUpon>compra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="reportinventario.rdlc" />
+    <EmbeddedResource Include="reportprov.rdlc" />
+    <EmbeddedResource Include="reportvencido.rdlc" />
+    <EmbeddedResource Include="Ticket.resx">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="usuarios.resx">
       <DependentUpon>usuarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="viewcompra.resx">
+      <DependentUpon>viewcompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewinventario.resx">
+      <DependentUpon>viewinventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewprov.resx">
+      <DependentUpon>viewprov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewvencido.resx">
+      <DependentUpon>viewvencido.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -234,26 +330,41 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="proyecto_finalDataSet.xsc">
-      <DependentUpon>proyecto_finalDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="proyecto_finalDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>proyecto_finalDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="proyecto_finalDataSet.xss">
-      <DependentUpon>proyecto_finalDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="reportemerca.xsc">
+      <DependentUpon>reportemerca.xsd</DependentUpon>
+    </None>
+    <None Include="reportemerca.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reportemerca.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="reportemerca.xss">
+      <DependentUpon>reportemerca.xsd</DependentUpon>
+    </None>
     <None Include="Resources\minimize.png" />
     <None Include="Resources\maximize.png" />
     <None Include="Resources\maxi.png" />
     <None Include="Resources\close azul [#1511].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

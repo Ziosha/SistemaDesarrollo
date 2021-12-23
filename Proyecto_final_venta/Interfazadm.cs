@@ -18,58 +18,16 @@ namespace Proyecto_final_venta
         public Interfazadm(Boolean x)
         {
             InitializeComponent();
-            btn_cuad.Visible = false;
+           
             conexion.Open();
             if (x)
             {
                btn_user.Visible = true;
             }
 
-
-           
-
-
         }
-        int posx = 0;
-        int posy = 0;
-
-        private void bunifuGradientPanel1_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (e.Button != MouseButtons.Left)
-            {
-                posx = e.X;
-                posy = e.Y;
-
-            }
-            else
-            {
-                Left = Left + (e.X - posx);
-                Top = Top + (e.Y - posy);
-            }
-        }
-        private void btn_cerrar_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void btn_cuad_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Normal;
-            btn_cuad.Visible = false;
-            btn_maximize.Visible = true;
-        }
-
-        private void btn_minimize_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void btn_maximize_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Maximized;
-            btn_maximize.Visible = false;
-            btn_cuad.Visible = true;
-        }
+      
+ 
         private void AbrirFormEnPanel(object openform)
         {
             if (this.panel_forms.Controls.Count > 0)
@@ -105,14 +63,27 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 inic = new Form1();
-            inic.Show();
-            this.Hide();
+            if (MessageBox.Show("¿Desea salir ?", "Log out", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Form1 inic = new Form1();
+                inic.Show();
+                this.Hide();
+            }
         }
 
         private void btn_user_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new usuarios());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new reportDevolucion());
+        }
+
+        private void btn_pago_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Pagoprov());
         }
     }
 }

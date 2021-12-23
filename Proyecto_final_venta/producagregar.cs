@@ -124,8 +124,8 @@ namespace Proyecto_final_venta
                 }
                 else
                 {
-                    string query = "insert into Producto (codProducto, codProveedor, descripcionProducto, precioCompra, Cantidad)" +
-                        "values ('"+txt_codProd.Text +"',"+txt_codProv.Text +", '"+txt_des.Text+"',"+txt_precio.Text+","+txt_cant.Text+")";
+                    string query = "insert into Producto (codProducto, codProveedor, descripcionProducto, precioCompra, Cantidad, ocultar, fechaVencimiento, cantidadMin)" +
+                        "values ('"+txt_codProd.Text +"',"+txt_codProv.Text +", '"+txt_des.Text+"',"+txt_precio.Text+","+txt_cant.Text+", 'v', '"+txt_fech.Text  +"', '"+ txt_cantmin.Text+"')";
                     SqlCommand comando = new SqlCommand(query, conexion);
                     SqlDataAdapter data = new SqlDataAdapter(comando);
                     DataTable dt = new DataTable();
@@ -134,8 +134,6 @@ namespace Proyecto_final_venta
                     Close();
 
                 }
-                
-
             }
             catch (Exception error)
             {
@@ -182,6 +180,11 @@ namespace Proyecto_final_venta
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

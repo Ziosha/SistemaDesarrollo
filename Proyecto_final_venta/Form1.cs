@@ -9,36 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace Proyecto_final_venta
 {
     public partial class Form1 : Form
     {
+
         static string conexionstr = "server = DARK-AHSOIZ\\SQLEXPRESS ; database = DataBase_DS ; integrated security = true";
         SqlConnection conexion = new SqlConnection(conexionstr);
+
         public Form1()
         {
             InitializeComponent();
-            conexion.Open();
+
         }
-        int posx = 0;
-        int posy = 0;
-        private void bunifuGradientPanel1_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (e.Button != MouseButtons.Left)
-            {
-                posx = e.X;
-                posy = e.Y;
-
-            }
-            else
-            {
-                Left = Left + (e.X - posx);
-                Top = Top + (e.Y - posy);
-            }
-        }
-
-       
-
         private void txt_user_Enter(object sender, EventArgs e)
         {
             if (txt_user.Text == "Usuario")
@@ -99,14 +83,17 @@ namespace Proyecto_final_venta
         }
         private void btn_ingreso_Click(object sender, EventArgs e)
         {
-            
-            string query = "select loginU, passwordU from Usuario where loginU ='"+txt_user.Text +"' and passwordU = '"+txt_pass.Text+"' ";
-            SqlCommand comando = new SqlCommand(query, conexion);
-            SqlDataReader lectordata;
-            lectordata = comando.ExecuteReader();
-            Boolean ex = lectordata.Read();
             conexion.Close();
-            if (ex)
+            try
+            {
+                conexion.Open();
+                string query = "select loginU, passwordU from Usuario where loginU ='" + txt_user.Text + "' and passwordU = '" + txt_pass.Text + "' ";
+                SqlCommand comando = new SqlCommand(query, conexion);
+                SqlDataReader lectordata;
+                lectordata = comando.ExecuteReader();
+                Boolean ex = lectordata.Read();
+                conexion.Close();
+                if (ex)
                 {
                     conexion.Open();
                     string priv = "select codigoPriv from Usuario where loginU ='" + txt_user.Text + "' and passwordU = '" + txt_pass.Text + "' and codigoPriv = 'a'";
@@ -114,41 +101,36 @@ namespace Proyecto_final_venta
                     SqlDataReader dt;
                     dt = comand.ExecuteReader();
                     Boolean x = dt.Read();
-                    Console.WriteLine(x);
                     conexion.Close();
 
 
-                var fecha = DateTime.Now;
-                var Date = fecha.Date.ToString("yyyy-MM-dd");
+                    var fecha = DateTime.Now;
+                    var Date = fecha.Date.ToString("yyyy-MM-dd");
+                    string hora = DateTime.Now.ToString("hh:mm:ss tt");
 
-                Console.WriteLine("The Current Date Without Time is {0}.", Date);
 
-                string hora = DateTime.Now.ToString("hh:mm:ss tt");
-                Console.WriteLine(hora);
+                    MessageBox.Show(" >>>>   bienvenido    " +
+                        "fecha de inicio " + Date +
+                        " hora de inico  " + hora + " <<<<");
 
-                MessageBox.Show(" >>>>   bienvenido    " +
-                    "fecha de inicio "+ Date  +
-                    " hora de inico  "+ hora + " <<<<");
-                   
                     Interfazadm adm = new Interfazadm(x);
                     adm.Show();
                     this.Hide();
-            }
+                }
                 else
                 {
                     MessageBox.Show("Datos incorrectos", "ERROR");
                 }
-            
-          
+
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            };
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        private void button2_Click(object sender, EventArgs e) => Application.Exit();
 
-  
-
-        
     }
 }

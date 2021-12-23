@@ -23,7 +23,7 @@ namespace Proyecto_final_venta
 
         private void usuarios_Load(object sender, EventArgs e)
         {
-            string query = "select * from proveedor";
+            string query = "select codProveedor,nomProveedor,direccionProveedor,telefonoProveedor from Proveedor where ocultar = 'v'";
             SqlCommand comando = new SqlCommand(query, conexion);
             SqlDataAdapter data = new SqlDataAdapter(comando);
             DataTable dt = new DataTable();

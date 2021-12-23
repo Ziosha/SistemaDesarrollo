@@ -23,14 +23,28 @@ namespace Proyecto_final_venta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string query = "update Proveedor set nomProveedor = '" + txt_nom.Text + "', direccionProveedor ='" + txt_dir.Text + "'," +
-               "telefonoProveedor = '" + txt_tel.Text + "' " +
-               "where codProveedor = '" + txt_id.Text + "'";
+            try
+            {
+                conexion.Open();
+                string query = "update Proveedor set nomProveedor = '" + txt_nom.Text + "', direccionProveedor ='" + txt_dir.Text + "'," +
+                   "telefonoProveedor = '" + txt_tel.Text + "' " +
+                   "where codProveedor = '" + txt_id.Text + "'";
 
-            SqlCommand comando = new SqlCommand(query, conexion);
-            SqlDataAdapter data = new SqlDataAdapter(comando);
-            DataTable dt = new DataTable();
-            data.Fill(dt);
+                SqlCommand comando = new SqlCommand(query, conexion);
+                SqlDataAdapter data = new SqlDataAdapter(comando);
+                DataTable dt = new DataTable();
+                data.Fill(dt);
+                Close();
+            }
+            catch(Exception error)
+            {
+                MessageBox.Show("Datos incorrectos", error.Message);
+            }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             Close();
         }
     }
